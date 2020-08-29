@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .food{
+            border: 3px solid lightgray;
+            border-radius: 30px;
+            margin: 10px;
+            width: 500px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width: 760px) {
+            .container{
+                flex-direction: column;
+            }
+            .container .food{
+                background-color: rosybrown;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container .food{
+                background-color: skyblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="food">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quidem, eius consectetur vitae blanditiis doloremque. Nemo nobis magnam saepe corporis?
+        <img src="images/food.jpg" alt="">
+    </div>
+    <div class="food">Dicta, nam minus velit iusto commodi odio adipisci aliquid cupiditate quod? Voluptas fuga quos aliquid illo exercitationem hic delectus molestiae?
+        <img src="images/food.jpg" alt="">
+    </div>
+    <div class="food">Nesciunt veritatis ex pariatur earum sint, dolorum autem minus laborum dolores optio ut doloribus nobis voluptatum perferendis eaque sequi ipsum?
+        <img src="images/food.jpg" alt="">
+    </div>
+    <div class="food">Saepe reprehenderit tempora veritatis assumenda magni iure voluptatem, debitis ipsum, sequi officia cupiditate officiis excepturi asperiores fuga! Corrupti, aut itaque.
+        <img src="images/food.jpg" alt="">
+    </div>
+    <div class="food">Veritatis pariatur in odio. Maxime quos recusandae quas? Ab accusamus veritatis omnis aspernatur sunt delectus doloremque ipsa? Nostrum, doloremque necessitatibus!
+        <img src="images/food.jpg" alt="">
+    </div>
+    <div class="food">Expedita iure velit esse mollitia aperiam sit in quo ducimus, minima culpa. Est sint consectetur labore quidem voluptas, sed aliquid!
+        <img src="images/food.jpg" alt="">
+    </div>
+</div>
+</body>
+</html>
